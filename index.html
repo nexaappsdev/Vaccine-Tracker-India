@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — VaccineTracker India</title>
+  <style>
+    :root {
+      --teal:       #00ACC1;
+      --teal-dark:  #00838F;
+      --teal-light: #E0F7FA;
+      --green:      #6B9E78;
+      --text:       #1A2332;
+      --muted:      #5A6A7A;
+      --border:     #DDE4EC;
+      --bg:         #F7FAFB;
+      --white:      #FFFFFF;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.75;
+      font-size: 16px;
+    }
+
+    /* ── Header ── */
+    header {
+      background: linear-gradient(135deg, var(--teal-dark) 0%, var(--teal) 100%);
+      color: white;
+      padding: 36px 24px 32px;
+      text-align: center;
+    }
+    .logo-wrap {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      background: rgba(255,255,255,0.18);
+      border-radius: 20px;
+      width: 64px; height: 64px;
+      margin-bottom: 16px;
+      font-size: 32px;
+    }
+    header h1 { font-size: 1.6rem; font-weight: 700; margin-bottom: 4px; }
+    header p  { font-size: 0.95rem; opacity: 0.85; }
+
+    /* ── Content wrapper ── */
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 32px 20px 64px;
+    }
+
+    /* ── Privacy promise banner ── */
+    .promise {
+      background: var(--teal-light);
+      border-left: 4px solid var(--teal);
+      border-radius: 8px;
+      padding: 16px 20px;
+      margin-bottom: 36px;
+    }
+    .promise strong { color: var(--teal-dark); display: block; margin-bottom: 4px; font-size: 1rem; }
+    .promise p { font-size: 0.95rem; color: var(--text); }
+
+    /* ── Sections ── */
+    section { margin-bottom: 32px; }
+    h2 {
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 10px;
+      padding-bottom: 6px;
+      border-bottom: 2px solid var(--teal-light);
+    }
+    p, li { font-size: 0.95rem; color: var(--text); }
+    ul { padding-left: 20px; margin-top: 8px; }
+    li { margin-bottom: 6px; }
+
+    /* ── SDK pills ── */
+    .sdk-list { list-style: none; padding: 0; }
+    .sdk-list li {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 12px 16px;
+      margin-bottom: 10px;
+      display: flex;
+      gap: 12px;
+      align-items: flex-start;
+    }
+    .sdk-icon { font-size: 1.3rem; flex-shrink: 0; }
+    .sdk-name { font-weight: 600; display: block; margin-bottom: 2px; }
+    .sdk-desc { font-size: 0.88rem; color: var(--muted); }
+
+    /* ── Contact card ── */
+    .contact-card {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 20px 24px;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+    .contact-icon {
+      background: var(--teal-light);
+      color: var(--teal-dark);
+      border-radius: 50%;
+      width: 44px; height: 44px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1.2rem;
+      flex-shrink: 0;
+    }
+    .contact-card p { font-size: 0.9rem; color: var(--muted); margin-top: 2px; }
+    .contact-card a {
+      color: var(--teal-dark);
+      font-weight: 600;
+      text-decoration: none;
+    }
+    .contact-card a:hover { text-decoration: underline; }
+
+    /* ── Footer ── */
+    footer {
+      text-align: center;
+      font-size: 0.82rem;
+      color: var(--muted);
+      padding: 20px;
+      border-top: 1px solid var(--border);
+    }
+    footer a { color: var(--teal-dark); text-decoration: none; }
+
+    /* ── Responsive ── */
+    @media (max-width: 480px) {
+      header h1 { font-size: 1.3rem; }
+      .contact-card { flex-direction: column; gap: 10px; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo-wrap">💉</div>
+  <h1>VaccineTracker India</h1>
+  <p>Privacy Policy &nbsp;·&nbsp; Last updated: April 2026</p>
+</header>
+
+<div class="container">
+
+  <div class="promise">
+    <strong>🔒 Your data never leaves your phone.</strong>
+    <p>VaccineTracker has no servers, no accounts, and no cloud storage of its own. Everything stays on your device. Nothing is ever sent to us or anyone else unless <em>you</em> choose to export or share it.</p>
+  </div>
+
+  <section>
+    <h2>What we store — and where</h2>
+    <p>The following information is saved <strong>locally on your phone only</strong>, in a private database that only this app can access:</p>
+    <ul>
+      <li>Children's names and dates of birth</li>
+      <li>Vaccine records (dates given, provider name, clinic, batch numbers, notes)</li>
+      <li>Vaccine card photos (stored in your phone's private app storage)</li>
+      <li>Reminder preferences</li>
+      <li>App settings (theme, notification preferences)</li>
+      <li>Your parental consent timestamp (required by India's DPDP Act 2023)</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>When does information leave your phone?</h2>
+    <p>Only when <strong>you</strong> choose one of these actions:</p>
+    <ul>
+      <li><strong>Export as PDF:</strong> You create the file and choose where it goes via Android's share sheet. We never see it.</li>
+      <li><strong>Share via QR code:</strong> The QR code is shown on your screen only. Nothing is transmitted to a server.</li>
+      <li><strong>Ask AI (on-device):</strong> All responses are generated entirely on-device using a built-in knowledge base. No questions or personal data are sent to any external service.</li>
+      <li><strong>Android Google Backup (optional):</strong> If you have Google Backup enabled in Android Settings, Android may back up your app data to your personal Google account. This is a standard Android feature and is controlled entirely by you. You can disable it in-app under Settings → Privacy &amp; Security.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Children's data &amp; DPDP Act 2023</h2>
+    <p>This app stores health records for minors. Under India's <strong>Digital Personal Data Protection Act (DPDP Act) 2023</strong>, parental or guardian consent is required before storing a child's personal data. This consent is recorded locally on your device with a timestamp. We do not transmit or retain this consent record anywhere.</p>
+  </section>
+
+  <section>
+    <h2>Vaccine schedule source</h2>
+    <p>The vaccine schedule is based on India's <strong>National Immunization Schedule (NIS)</strong>, published by the Ministry of Health &amp; Family Welfare, Government of India. You can verify the schedule at <a href="https://mohfw.gov.in" target="_blank" rel="noopener">mohfw.gov.in</a> under National Health Programmes → Immunization. The version in use is shown in Settings.</p>
+  </section>
+
+  <section>
+    <h2>How to delete your data</h2>
+    <p>Go to <strong>Settings → Delete All Data</strong> inside the app. This permanently removes all children, vaccine records, settings, and consent records from your device. Nothing is deleted from any server because nothing was ever stored on one.</p>
+  </section>
+
+  <section>
+    <h2>Third-party SDKs</h2>
+    <p>The following on-device libraries are used. None of them transmit your personal data:</p>
+    <ul class="sdk-list">
+      <li>
+        <span class="sdk-icon">📷</span>
+        <div>
+          <span class="sdk-name">Google ML Kit (on-device OCR)</span>
+          <span class="sdk-desc">Reads vaccination card photos using on-device text recognition. No image or text is uploaded to Google.</span>
+        </div>
+      </li>
+      <li>
+        <span class="sdk-icon">📱</span>
+        <div>
+          <span class="sdk-name">Google Play Billing</span>
+          <span class="sdk-desc">Used only for the optional Pro upgrade purchase, handled entirely by Google Play. We never see or store your payment details.</span>
+        </div>
+      </li>
+      <li>
+        <span class="sdk-icon">🔲</span>
+        <div>
+          <span class="sdk-name">ZXing (QR code)</span>
+          <span class="sdk-desc">Generates QR codes locally on your device. No data is transmitted.</span>
+        </div>
+      </li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Contact us</h2>
+    <div class="contact-card">
+      <div class="contact-icon">✉️</div>
+      <div>
+        <a href="mailto:nexaapps.dev@gmail.com">nexaapps.dev@gmail.com</a>
+        <p>Questions about this policy or your rights under the DPDP Act? Write to us and we'll respond within 7 days.</p>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<footer>
+  <p>© 2026 VaccineTracker India &nbsp;·&nbsp; Made with ❤️ by a mom!</p>
+  <p style="margin-top:6px;">
+    This app is for reference only. Always consult a qualified doctor for medical decisions.
+  </p>
+</footer>
+
+</body>
+</html>
